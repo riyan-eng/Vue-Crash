@@ -11,7 +11,8 @@ export default{
     },
     methods:{
         onClick(){
-            console.log("halo")
+            // console.log("halo")
+            this.$emit('btn-click')
         }
     }
 }
